@@ -1,70 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>
+      Frontend Mentor | Huddle landing page with alternating feature blocks
+    </title>
+    <link rel="stylesheet" href="./css/style.css" />
 
-  Try It Free
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
 
-  Build The Community Your Fans Will Love
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="body">
+    <header class="hero">
+      <nav class="nav container">
+        <figure class="nav__figure">
+          <img src="./images/logo.svg" alt="logo" class="nav__logo" />
+        </figure>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
+        <a href="#" class="nav__cta">Try It Free</a>
+      </nav>
 
-  Get Started For Free
+      <section class="hero__main container">
+        <article class="hero__texts">
+          <h1 class="hero__title">Build The Community Your Fans Will Love</h1>
+          <p class="hero__paragraph">
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+          <a href="#" class="button">Get Started For Free</a>
+        </article>
 
-  Grow Together
+        <figure class="hero__figure">
+          <img
+            src="./images/illustration-mockups.svg"
+            alt="fondo"
+            class="hero__img"
+          />
+        </figure>
+      </section>
+    </header>
 
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
+    <main class="main container">
+      <section class="section">
+        <figure class="section__figure">
+          <img
+            src="./images/illustration-grow-together.svg"
+            alt="Grow Together"
+            class="section__img"
+          />
+        </figure>
 
-  Flowing Conversations
+        <article class="section__texts">
+          <h2 class="section__title">Grow Together</h2>
+          <p class="section__paragraph">
+            Generate meaningful discussions with your audience and build a
+            strong, loyal community. Think of the insightful conversations you
+            miss out on with a feedback form.
+          </p>
+        </article>
+      </section>
 
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-  have just-in-time loading for a more natural flow.
+      <section class="section section--reverse">
+        <figure class="section__figure">
+          <img
+            src="./images/illustration-flowing-conversation.svg"
+            alt="Flowing Conversations"
+            class="section__img"
+          />
+        </figure>
 
-  Your Users
+        <article class="section__texts">
+          <h2 class="section__title">Flowing Conversations</h2>
+          <p class="section__paragraph">
+            You wouldn't paginate a conversation in real life, so why do it
+            online? Our threads have just-in-time loading for a more natural
+            flow.
+          </p>
+        </article>
+      </section>
 
-  It takes no time at all to integrate Huddle with your app's authentication solution. 
-  This means, once signed in to your app, your users can start chatting immediately.
+      <section class="section">
+        <figure class="section__figure">
+          <img
+            src="./images/illustration-your-users.svg"
+            alt="Your Users"
+            class="section__img"
+          />
+        </figure>
 
-  Ready To Build Your Community?
+        <article class="section__texts">
+          <h2 class="section__title">Your Users</h2>
+          <p class="section__paragraph">
+            It takes no time at all to integrate Huddle with your app's
+            authentication solution. This means, once signed in to your app,
+            your users can start chatting immediately.
+          </p>
+        </article>
+      </section>
+    </main>
 
-  Get Started For Free
+    <section class="email">
+      <div class="email__container container">
+        <h2 class="email__title">Ready To Build Your Community?</h2>
+        <a href="#" class="button">Get Started For Free</a>
+      </div>
+    </section>
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua
+    <footer class="footer">
+      <section class="footer_container container">
+        <figure class="footer__figure">
+          <img
+            src="./images/logo_white.svg"
+            alt="logo_white"
+            class="footer__logo"
+          />
+        </figure>
 
-  +1-543-123-4567
-  example@huddle.com
+        <article class="footer__directions">
+          <p class="footer__paragraph">
+            <img
+              src="./images/icon-location.svg"
+              alt="location"
+              class="footer__icon"
+            />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqhhj
+          </p>
 
-  About Us
-  What We Do
-  FAQ
+          <p class="footer__paragraph">
+            <img
+              src="./images/icon-phone.svg"
+              alt="phone"
+              class="footer__icon"
+            />+1-543-123-4567
+          </p>
 
-  Career
-  Blog
-  Contact Us
+          <p class="footer__paragraph">
+            <img
+              src="./images/icon-email.svg"
+              alt="email"
+              class="footer__icon"
+            />example@huddle.com
+          </p>
+        </article>
 
-  &copy; Copyright 2018 Huddle. All rights reserved.
+        <ul class="footer__list footer__list--first">
+          <li class="footer__item">
+            <a href="#" class="footer__link">About Us</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">What We Do</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">FAQ</a>
+          </li>
+        </ul>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">Career</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Blog</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Contact Us</a>
+          </li>
+          <li class="footer__item"></li>
+        </ul>
+      <!-- </section> -->
+      
+      <article class="footer__contact">
+        <div class="footer__socialmedia">
+          <a href="#" class="footer__media">
+            <img
+            src="./images/facebook.svg"
+            alt="facebook"
+            class="footer__social"
+            /></a>
+            
+            <a href="#" class="footer__media">
+              <img src="./images/twiter.svg" alt="twitter" class="footer__social"
+              /></a>
+              
+              <a href="#" class="footer__media">
+                <img
+                src="./images/instagram.svg"
+                alt="instagram"
+                class="footer__social"
+                />
+              </a>
+            </div>
+              <p class="footer__copy">
+                &copy; Copyright 2018 Huddle. All rights reserved.
+              </p>
+          </section>
+      </article>
+    </footer>
+  </body>
 </html>
+
